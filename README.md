@@ -3,6 +3,8 @@
 
 <p>This repository consists of all scripts developed in MATLAB to simulate XRD line profiles of hexagonal close-packed bulk crystals with grain interfaces. The scrips are separated into two folders: <code>hcp3d/fulltilt</code> lists all scripts dedicated to the simulation routines performed, and <code>hcp3d/extras</code> lists all scripts developed to extract images and perform pertinent calculations to extract further information on the data obtained.</p>
 
+<p>MATLAB® is a registered trademark of The MathWorks, Inc. Further information can be found at [http://www.mathworks.com].</p>
+
 A full list of the scripts contained in this repository follows:
 
 hcp3d_lattice.m -  

@@ -18,7 +18,7 @@ hcp3d_fftXhk.m -
 hcp3d_fulltilt.m -
 hcp3d_stack_abb.m - 
 hcp3d_stack_abc.m - 
-hcp3d_stackingfault.m
+hcp3d_stackingfault.m - 
 
 hcp3d_pov_alpha.m - 
 hcp3d_pov_beta.m - 

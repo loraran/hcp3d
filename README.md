@@ -41,7 +41,7 @@ _MATLAB® is a registered trademark of The MathWorks, Inc. Further information c
 <h3> Data Retrieval </h3>
 
 * _`angulos.m`_ - Convertion of atom coordinates into rotation angles
-* _`reverseangulos.m`_ - Convertion of rotation angles into atom coordinates *[TO-DO]*
+* _`reverseangulos.m`_ - Convertion of rotation angles into atom coordinates **_[TO-DO]_**
 * _`Lcalc.m`_ - Estimates Miller indexes (_l_ only)
 * _`strain.m`_ - Calculates maximum estimated strain (1D distortion)
 

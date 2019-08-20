@@ -1,4 +1,4 @@
-hcp3d
+X-Ray Diffraction Simulation of Interfaces in Hexagonal Close-Packed Crystals - _hcp3d_
 ===
 MATLAB XRD simulations of hcp bulk crystals. MSc project (2017-2019).
 

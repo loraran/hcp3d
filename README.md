@@ -11,29 +11,34 @@ _MATLAB® is a registered trademark of The MathWorks, Inc. Further information c
 
 A full list of the scripts contained in this repository follows:
 
-* hcp3d_lattice.m -
-* hcp3d_projections.m -
-* hcp3d_progcut_alpha.m -
-* * hcp3d_progcut_beta.m -
-* hcp3d_progcut_gammaZ.m -
-* hcp3d_progcut_gammaX.m -
-* hcp3d_fft.m -  
-* hcp3d_fftXh.m -  
-* hcp3d_fftXk.m -  
-* hcp3d_fftXhk.m -  
-* hcp3d_fulltilt.m -  
-* hcp3d_stack_abb.m -  
-* hcp3d_stack_abc.m -  
-* hcp3d_stackingfault.m -  
+* _`hcp3d_lattice.m`_ - Defines lattice parameters and matrix size, sets up spherical matrix.
+* _`hcp3d_projections.m`_ - Generates and saves specified projections of the matrix created by `hcp3d_lattice`.
+* _`hcp3d_progcut`_ - Collection of functions that performs progressive rotations and cutting of the projected matrices.
+  * _`_alpha.m`_ -
+  * _`_beta.m`_ -
+  * _`_gammaZ.m`_ -
+  * _`_gammaX.m`_ -
+* _`hcp3d_fft.m`_ - 
+* _`hcp3d_fftX`_ - 
+  * _`_fftXh.m`_ -
+  * _`_fftXk.m`_ -
+  * _`_fftXhk.m`_ -
+* _`hcp3d_fulltilt.m`_ - HCP3D executable.
 
-* hcp3d_pov_alpha.m -  
-* hcp3d_pov_beta.m -  
-* hcp3d_pov_gamma.m -  
-* hcp3d_pov_bulk.m -  
+* _`hcp3d_stackingfault.m`_ - 
+* _`hcp3d_stack`_ - 
+  * _`_abb.m`_ - 
+  * _`_abc.m`_ - 
 
-* angulos.m -  
-* reverseangulos.m -  
-* Lcalc.m -  
-* strain.m -  
+* _`hcp3d_pov`_ - 
+  * _`_bulk.m`_ - 
+  * _`_alpha.m`_ - 
+  * _`_beta.m`_ - 
+  * _`_gamma.m`_ - 
+
+* _`angulos.m`_ - 
+* _`reverseangulos.m`_ - 
+* _`Lcalc.m`_ - 
+* _`strain.m`_ - 
 
 [add descriptions]

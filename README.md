@@ -1,5 +1,5 @@
-X-Ray Diffraction Simulation of Interfaces in Hexagonal Close-Packed Crystals - _hcp3d_
-===
+## X-Ray Diffraction Simulation of Interfaces in Hexagonal Close-Packed Crystals - _hcp3d_
+
 MATLAB XRD simulations of hcp bulk crystals. MSc project (2017-2019).
 
 This repository consists of all scripts developed in MATLAB to simulate XRD line profiles of hexagonal close-packed bulk crystals with grain interfaces. The scrips are separated into two folders: `hcp3d/fulltilt` lists all scripts dedicated to the simulation routines performed, and `hcp3d/extras` lists all scripts developed to extract images and perform pertinent calculations to extract further information on the data obtained.

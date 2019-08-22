@@ -2,7 +2,7 @@
 
 MATLAB XRD simulations of hcp bulk crystals. MSc project (2017-2019).
 
-This repository consists of all scripts developed in MATLAB to simulate XRD line profiles of hexagonal close-packed bulk crystals with grain interfaces. The scripts are separated into two folders: `hcp3d/fulltilt` lists all scripts dedicated to the simulation routines performed, and `hcp3d/extras` lists all scripts developed to extract images and perform pertinent calculations to extract further information on the data obtained. A full list of the scripts contained in the repository can be found below.
+This repository consists of all scripts developed in MATLAB to simulate XRD line profiles of hexagonal close-packed bulk crystals with grain interfaces. The scripts are separated into two folders: `hcp3d/fulltilt` lists all scripts dedicated to the simulation routines performed, and `hcp3d/extras` lists all scripts developed to extract images and perform pertinent calculations to extract further information on the XRD data obtained. A full description of the scripts contained in the repository can be found below.
 
 Disclaimer:  
 _MATLAB® is a registered trademark of The MathWorks, Inc. Further information can be found at http://www.mathworks.com._

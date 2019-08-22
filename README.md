@@ -13,7 +13,7 @@ _MATLAB® is a registered trademark of The MathWorks, Inc. Further information c
 
 * _`hcp3d_lattice.m`_ - Crystal lattice assembly. Defines lattice parameters and matrix size, sets up a spherical matrix.
 * _`hcp3d_projections.m`_ - Generates and saves specified projections of the matrix created by `hcp3d_lattice`.
-* _`hcp3d_progcut`_ - Collection of functions that performs progressive rotations and cutting of the projected matrices.
+* _`hcp3d_progcut`_ - Collection of functions that perform progressive rotations and cutting of the projected matrices.
   * _`_alpha.m`_ -
   * _`_beta.m`_ -
   * _`_gammaZ.m`_ -

@@ -12,12 +12,12 @@ _MATLAB® is a registered trademark of The MathWorks, Inc. Further information c
 <h3> Simulation Routines </h3>
 
 * _`hcp3d_lattice.m`_ - Crystal lattice assembly. Defines lattice parameters and matrix size, sets up a spherical matrix.
-* _`hcp3d_projections.m`_ - Generates and saves specified projections - (100) and (110) - of the matrix created by `hcp3d_lattice`.
+* _`hcp3d_projections.m`_ - Generates and saves specified projections of the matrix created by `hcp3d_lattice`: (100), (110).
 * _`hcp3d_progcut`_ - Collection of functions that perform progressive rotation and cutting of the projected matrices.
-  * _`_alpha.m`_ - Progressive rotation and cutting of alpha-like interfaces
-  * _`_beta.m`_ -
-  * _`_gammaZ.m`_ -
-  * _`_gammaX.m`_ -
+  * _`_alpha.m`_ - Progressive rotation and cutting of alpha-like interfaces (out-of-plane).
+  * _`_beta.m`_ - Progressive rotation and cutting of beta-like interfaces (out-of-plane).
+  * _`_gammaZ.m`_ - Progressive rotation and cutting of gamma-like interfaces (out-of-plane).
+  * _`_gammaX.m`_ - Progressive rotation and cutting of gamma-like interfaces (in-plane).
 * _`hcp3d_fft.m`_ - 
 * _`hcp3d_fftX`_ - 
   * _`_fftXh.m`_ -

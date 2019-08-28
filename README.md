@@ -32,6 +32,8 @@ _MATLAB® is a registered trademark of The MathWorks, Inc. Further information c
   
 <h3> Extraction of Atom Matrices Figures for POV-Ray™ </h3>
 
+The [_Persistence of Vision Raytracer™_](http://www.povray.org/) (_POV-Ray™_) is a tool for producing high-quality computer graphics. POV-Ray is a free and open-source software with source code available under the AGPLv3.
+
 * _`hcp3d_pov`_ - 
   * _`_bulk.m`_ - 
   * _`_alpha.m`_ - 

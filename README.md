@@ -1,4 +1,4 @@
-## X-Ray Diffraction Simulation of Interfaces in Hexagonal Close-Packed Crystals
+## 📉 X-Ray Diffraction Simulation of Interfaces in Hexagonal Close-Packed Crystals
 
 MATLAB XRD simulations of hcp bulk crystals. MSc project (2017-2019).
 

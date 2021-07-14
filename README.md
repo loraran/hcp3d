@@ -14,21 +14,21 @@ _MATLAB® is a registered trademark of The MathWorks, Inc. Further information c
 <h3> Simulation Routines </h3>
 
 _`hcp3d_lattice.m`_ - Crystal lattice assembly. Defines lattice parameters and matrix size, sets up a spherical matrix.
-* _`hcp3d_projections.m`_ - Generates and saves specified projections of the matrix created by `hcp3d_lattice`: (100), (110).
-* _`hcp3d_progcut`_ - Collection of functions that perform progressive rotation and cutting of the projected matrices.
+_`hcp3d_projections.m`_ - Generates and saves specified projections of the matrix created by `hcp3d_lattice`: (100), (110).
+_`hcp3d_progcut`_ - Collection of functions that perform progressive rotation and cutting of the projected matrices.
   * _`_alpha.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ α-like interfaces.
   * _`_beta.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ β-like interfaces.
   * _`_gammaZ.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ γ-like interfaces.
   * _`_gammaX.m`_ - Progressive rotation, cutting and assembly of _in-plane_ γ-like interfaces.
-* _`hcp3d_fft.m`_ - Fast-Fourier Transform of assembled out-of-plane lattices α, β and γ. Varies l with 0.006 steps.
-* _`hcp3d_fftX`_ - Collection of functions that perform Fast-Fourier Transform of assembled lattices γ (in-plane). **_[ADD]_**
+_`hcp3d_fft.m`_ - Fast-Fourier Transform of assembled out-of-plane lattices α, β and γ. Varies l with 0.006 steps.
+_`hcp3d_fftX`_ - Collection of functions that perform Fast-Fourier Transform of assembled lattices γ (in-plane). **_[ADD]_**
   * _`_fftXh.m`_ - Varies h with 0.006 steps. **_[ADD]_**
   * _`_fftXk.m`_ - Varies k with 0.006 steps. **_[ADD]_**
   * _`_fftXhk.m`_ - Varies h and k with 0.006 steps. **_[ADD]_**
-* _`hcp3d_fulltilt.m`_ - HCP3D executable. **_[ADD]_**
+_`hcp3d_fulltilt.m`_ - HCP3D executable. **_[ADD]_**
 
-* _`hcp3d_stackingfault.m`_ - **_[ADD]_**
-* _`hcp3d_stack`_ - **_[ADD]_**
+_`hcp3d_stackingfault.m`_ - **_[ADD]_**
+_`hcp3d_stack`_ - **_[ADD]_**
   * _`_abb.m`_ - **_[ADD]_**
   * _`_abc.m`_ - **_[ADD]_**
   
@@ -36,7 +36,7 @@ _`hcp3d_lattice.m`_ - Crystal lattice assembly. Defines lattice parameters and m
 
 The [_Persistence of Vision Raytracer™_](http://www.povray.org/) (_POV-Ray™_) is a tool for producing high-quality computer graphics. POV-Ray is a free and open-source software with source code available under the AGPLv3.
 
-* _`hcp3d_pov`_ - **_[ADD]_**
+_`hcp3d_pov`_ - **_[ADD]_**
   * _`_bulk.m`_ - **_[ADD]_**
   * _`_alpha.m`_ - **_[ADD]_**
   * _`_beta.m`_ - **_[ADD]_**
@@ -49,4 +49,4 @@ The [_Persistence of Vision Raytracer™_](http://www.povray.org/) (_POV-Ray™_
 * _`Lcalc.m`_ - Estimates Miller indexes (_l_ only)
 * _`strain.m`_ - Calculates maximum estimated strain (1D distortion)
 
-# **[add descriptions]**
+## **[add descriptions]**

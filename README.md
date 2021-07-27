@@ -12,7 +12,7 @@ A research paper was published using results obtained from these scripts. You ca
 
 ---
 
-## _hcp3d/fulltilt_
+## _hcp3d/sim_
 ### Simulation Routines
 
 * _`hcp3d_fulltilt.m`_ - HCP3D main script. Executes all relevant scripts, calling functions in the correct order. **_[ADD]_**

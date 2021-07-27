@@ -2,7 +2,9 @@
 
 MATLAB XRD simulations of hcp bulk crystals. MSc project (2017-2019).
 
-This repository consists of all scripts developed in MATLAB to simulate X-ray diffraction line profiles of hexagonal close-packed bulk crystals with grain interfaces. The scripts are separated into two folders: `hcp3d/fulltilt` lists all scripts dedicated to the simulation routines performed, and `hcp3d/extras` lists all scripts developed to extract images and perform pertinent calculations to extract further information on the XRD data obtained. A full description of the scripts contained in the repository can be found below.
+**_NOTE:_ Upload is still ongowing as of 2021.**
+
+This repository consists of all scripts developed in MATLAB to simulate X-ray diffraction line profiles of hexagonal close-packed bulk crystals with grain interfaces. The scripts are separated into two folders: `hcp3d/sim` lists all scripts dedicated to the simulation routines performed, and `hcp3d/extras` lists all scripts developed to extract images and perform pertinent calculations to extract further information on the XRD data obtained. A full description of the scripts contained in the repository can be found below.
 
 A research paper was published using results obtained from these scripts. You can find it here: [_Retrieving the configuration of grain boundary structure in polycrystalline materials by extraordinary X-ray reflection analysis_](https://doi.org/10.1107/S1600576720007803)
  
@@ -15,7 +17,7 @@ A research paper was published using results obtained from these scripts. You ca
 
 * _`hcp3d_fulltilt.m`_ - HCP3D main script. Executes all relevant scripts, calling functions in the correct order. **_[ADD]_**
 * _`hcp3d_lattice.m`_ - Crystal lattice assembly. Defines lattice parameters and matrix size, sets up a spherical matrix.
-* _`hcp3d_projections.m`_ - Generates and saves specified projections of the matrix created by `hcp3d_lattice`: (100), (110).
+* _`hcp3d_projections.m`_ - Generates specified projections of the matrix created by `hcp3d_lattice`: (100), (110).
 * Collection of functions that perform progressive rotation and cutting of the projected matrices:
   * _`hcp3d_progcut_alpha.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ α-like interfaces.
   * _`hcp3d_progcut_beta.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ β-like interfaces.

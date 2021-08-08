@@ -6,7 +6,10 @@ MATLAB XRD simulations of hcp bulk crystals. MSc project (2017-2019).
 
 This repository consists of all scripts developed in MATLAB to simulate X-ray diffraction line profiles of hexagonal close-packed bulk crystals with grain interfaces. The scripts are separated into two folders: `hcp3d/sim` lists all scripts dedicated to the simulation routines performed, and `hcp3d/extras` lists all scripts developed to extract images and perform pertinent calculations to extract further information on the XRD data obtained. A full description of the scripts contained in the repository can be found below.
 
-A research paper was published using results obtained from these scripts. You can find it here: [_Retrieving the configuration of grain boundary structure in polycrystalline materials by extraordinary X-ray reflection analysis_](https://doi.org/10.1107/S1600576720007803)
+A research paper was published using results obtained from these scripts. You can find it here:
+
+[_Retrieving the configuration of grain boundary structure in polycrystalline materials by extraordinary X-ray reflection analysis_](https://doi.org/10.1107/S1600576720007803)
+<br>**L. Aarão-Rodrigues, A. Isaac, R. B. Figueiredo and A. Malachias**
  
 >_MATLAB® is a registered trademark of The MathWorks, Inc. Further information can be found at http://www.mathworks.com._
 
@@ -46,6 +49,6 @@ A research paper was published using results obtained from these scripts. You ca
 ### Data Retrieval
 
 * _`angulos.m`_ - Convertion of atom coordinates into rotation angles.
-* _`reverseangulos.m`_ - Convertion of rotation angles into atom coordinates. **_[TO-DO]_**
 * _`Lcalc.m`_ - Estimates Miller indexes (_l_ only).
 * _`strain.m`_ - Calculates maximum estimated strain (1D distortion).
+* _`reverseangulos.m`_ - Convertion of rotation angles into atom coordinates. **_[unused, unfinished]_**

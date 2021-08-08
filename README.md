@@ -18,7 +18,7 @@ A research paper was published using results obtained from these scripts. You ca
 ## _hcp3d/sim_
 ### Simulation Routines
 
-* _`hcp3d_fulltilt.m`_ - HCP3D main script. Executes all relevant scripts, calling functions in the correct order. **_[ADD]_**
+* _`hcp3d_fulltilt.m`_ - HCP3D main script. Executes all relevant scripts, calling functions in the correct order.
 * _`hcp3d_lattice.m`_ - Crystal lattice assembly. Defines lattice parameters and matrix size, sets up a spherical matrix.
 * _`hcp3d_projections.m`_ - Generates specified projections of the matrix created by `hcp3d_lattice`: (100), (110).
 * Collection of functions that perform progressive rotation and cutting of the projected matrices:

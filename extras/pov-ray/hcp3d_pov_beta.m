@@ -3,7 +3,7 @@
 load mgcrystal_pov.mat % Loads 'atomcut1' (bulk) and 'atomcut2' (inclusion) matrices
 atompov1 = []; atompov2 = []; % Pre-allocating
 
-% Rotating atomcut1 and atomcut2 30° around Z-axis so it can be on the same position as alpha
+% Rotating atomcut1 and atomcut2 30Â° around Z-axis so it can be on the same position as alpha
 inclangle = -30;
 inclanglerad = (-inclangle)*(pi/180);
 X1 = atomcut1(:,1)*cos(inclanglerad) - atomcut1(:,2)*sin(inclanglerad);

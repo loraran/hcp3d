@@ -38,7 +38,7 @@ A research paper was published using results obtained from these scripts. You ca
   
 ## _hcp3d/extras_
 ### Extraction of Atom Matrix Figures for POV-Ray™
->The [_Persistence of Vision Raytracer™_](http://www.povray.org/) (_POV-Ray™_) is a tool for producing high-quality computer graphics. POV-Ray is a free and open-source software >with source code available under the AGPLv3.
+>The [_Persistence of Vision Raytracer™_](http://www.povray.org/) (_POV-Ray™_) is a tool for producing high-quality computer graphics. POV-Ray is a free and open-source software with source code available under the AGPLv3.
 
 * Collection of scripts to assist the creation on images to better illustrate relevant assembled lattices (all atom positions are preserved). They create _.pov_ files to be visualized in POV-Ray.
   * `_bulk.m` - Creates _.pov_ files to generate images for the bulk matrix.

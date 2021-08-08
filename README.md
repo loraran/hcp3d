@@ -1,8 +1,8 @@
 # 📉 XRD Simulation of Interfaces in HCP Crystals
 
-MATLAB XRD simulations of hcp bulk crystals. MSc project (2017-2019).
+MSc project (2017-2019). MATLAB XRD simulations of hcp bulk crystals.
 
-**_NOTE:_ Upload is still ongowing as of 2021.**
+###### Last Update (08 Aug 2021): _Updated file descriptions._
 
 This repository consists of all scripts developed in MATLAB to simulate X-ray diffraction line profiles of hexagonal close-packed bulk crystals with grain interfaces. The scripts are separated into two folders: `hcp3d/sim` lists all scripts dedicated to the simulation routines performed, and `hcp3d/extras` lists all scripts developed to extract images and perform pertinent calculations to extract further information on the XRD data obtained. A full description of the scripts contained in the repository can be found below.
 

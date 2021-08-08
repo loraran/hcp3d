@@ -41,10 +41,10 @@ A research paper was published using results obtained from these scripts. You ca
 >The [_Persistence of Vision Raytracer™_](http://www.povray.org/) (_POV-Ray™_) is a tool for producing high-quality computer graphics. POV-Ray is a free and open-source software with source code available under the AGPLv3.
 
 * Collection of scripts to assist the creation on images to better illustrate relevant assembled lattices (all atom positions are preserved). They create _.pov_ files to be visualized in POV-Ray.
-  * `_bulk.m` - Creates _.pov_ files to generate images for the bulk matrix.
-  * `_alpha.m` - Creates _.pov_ files to generate images for _out-of-plane_ α-type interfaces.
-  * `_beta.m` - Creates _.pov_ files to generate images for _out-of-plane_ β-type interfaces.
-  * `_gamma.m` - Creates _.pov_ files to generate images for _out-of-plane_ γ-type interfaces.
+  * `hcp3d_pov_bulk.m` - Creates _.pov_ files to generate images for the bulk matrix.
+  * `hcp3d_pov_alpha.m` - Creates _.pov_ files to generate images for _out-of-plane_ α-type interfaces.
+  * `hcp3d_pov_beta.m` - Creates _.pov_ files to generate images for _out-of-plane_ β-type interfaces.
+  * `hcp3d_pov_gamma.m` - Creates _.pov_ files to generate images for _out-of-plane_ γ-type interfaces.
 
 ### Data Retrieval
 

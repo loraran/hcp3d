@@ -19,10 +19,10 @@ A research paper was published using results obtained from these scripts. You ca
 * _`hcp3d_lattice.m`_ - Crystal lattice assembly. Defines lattice parameters and matrix size, sets up a spherical matrix.
 * _`hcp3d_projections.m`_ - Generates specified projections of the matrix created by `hcp3d_lattice`: (100), (110).
 * Collection of functions that perform progressive rotation and cutting of the projected matrices:
-  * _`hcp3d_progcut_alpha.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ α-like interfaces.
-  * _`hcp3d_progcut_beta.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ β-like interfaces.
-  * _`hcp3d_progcut_gammaZ.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ γ-like interfaces.
-  * _`hcp3d_progcut_gammaX.m`_ - Progressive rotation, cutting and assembly of _in-plane_ γ-like interfaces.
+  * _`hcp3d_progcut_alpha.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ α-type interfaces.
+  * _`hcp3d_progcut_beta.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ β-type interfaces.
+  * _`hcp3d_progcut_gammaZ.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ γ-type interfaces.
+  * _`hcp3d_progcut_gammaX.m`_ - Progressive rotation, cutting and assembly of _in-plane_ γ-type interfaces.
 * _`hcp3d_fft.m`_ - Fast-Fourier Transform of assembled out-of-plane lattices α, β and γ. Varies l with 0.006 steps.
 * Collection of functions that perform Fast-Fourier Transform of assembled lattices γ (in-plane): **_[ADD]_**
   * _`hcp3d_fftX_fftXh.m`_ - Varies h with 0.006 steps. **_[ADD]_**
@@ -34,14 +34,14 @@ A research paper was published using results obtained from these scripts. You ca
   * _`_abc.m`_ - **_[ADD]_**
   
 ## _hcp3d/extras_
-### Extraction of Atom Matrices Figures for POV-Ray™
+### Extraction of Atom Matrix Figures for POV-Ray™
 >The [_Persistence of Vision Raytracer™_](http://www.povray.org/) (_POV-Ray™_) is a tool for producing high-quality computer graphics. POV-Ray is a free and open-source software >with source code available under the AGPLv3.
 
-* _`hcp3d_pov`_ - **_[ADD]_**
-  * _`_bulk.m`_ - **_[ADD]_**
-  * _`_alpha.m`_ - **_[ADD]_**
-  * _`_beta.m`_ - **_[ADD]_**
-  * _`_gamma.m`_ - **_[ADD]_**
+* Collection of scripts to assist the creation on images to better illustrate relevant assembled lattices (all atom positions are preserved). They create _.pov_ files to be visualized in POV-Ray.
+  * _`_bulk.m`_ - Creates _.pov_ files to generate images for the bulk matrix.
+  * _`_alpha.m`_ - Creates _.pov_ files to generate images for _out-of-plane_ α-type interfaces.
+  * _`_beta.m`_ - Creates _.pov_ files to generate images for _out-of-plane_ β-type interfaces.
+  * _`_gamma.m`_ - Creates _.pov_ files to generate images for _out-of-plane_ γ-type interfaces.
 
 ### Data Retrieval
 

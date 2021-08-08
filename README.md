@@ -18,37 +18,37 @@ A research paper was published using results obtained from these scripts. You ca
 ## _hcp3d/sim_
 ### Simulation Routines
 
-* _`hcp3d_fulltilt.m`_ - HCP3D main script. Executes all relevant scripts, calling functions in the correct order.
-* _`hcp3d_lattice.m`_ - Crystal lattice assembly. Defines lattice parameters and matrix size, sets up a spherical matrix.
-* _`hcp3d_projections.m`_ - Generates specified projections of the matrix created by `hcp3d_lattice`: (100), (110).
+* `hcp3d_fulltilt.m` - HCP3D main script. Executes all relevant scripts, calling functions in the correct order.
+* `hcp3d_lattice.m` - Crystal lattice assembly. Defines lattice parameters and matrix size, sets up a spherical matrix.
+* `hcp3d_projections.m` - Generates specified projections of the matrix created by `hcp3d_lattice`: (100), (110).
 * Collection of functions that perform progressive rotation and cutting of the projected matrices:
-  * _`hcp3d_progcut_alpha.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ α-type interfaces.
-  * _`hcp3d_progcut_beta.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ β-type interfaces.
-  * _`hcp3d_progcut_gammaZ.m`_ - Progressive rotation, cutting and assembly of _out-of-plane_ γ-type interfaces.
-  * _`hcp3d_progcut_gammaX.m`_ - Progressive rotation, cutting and assembly of _in-plane_ γ-type interfaces.
-* _`hcp3d_fft.m`_ - Fast-Fourier Transform of assembled out-of-plane lattices α, β and γ. Varies l with 0.006 steps.
-* Collection of functions that perform Fast-Fourier Transform of assembled lattices γ (in-plane): **_[ADD]_**
-  * _`hcp3d_fftX_fftXh.m`_ - Varies h with 0.006 steps. **_[ADD]_**
-  * _`hcp3d_fftX_fftXk.m`_ - Varies k with 0.006 steps. **_[ADD]_**
-  * _`hcp3d_fftX_fftXhk.m`_ - Varies h and k with 0.006 steps. **_[ADD]_**
-* _`hcp3d_stackingfault.m`_ - **_[ADD]_**
-* _`hcp3d_stack`_ - **_[ADD]_**
-  * _`_abb.m`_ - **_[ADD]_**
-  * _`_abc.m`_ - **_[ADD]_**
+  * `hcp3d_progcut_alpha.m` - Progressive rotation, cutting and assembly of _out-of-plane_ α-type interfaces.
+  * `hcp3d_progcut_beta.m` - Progressive rotation, cutting and assembly of _out-of-plane_ β-type interfaces.
+  * `hcp3d_progcut_gammaZ.m` - Progressive rotation, cutting and assembly of _out-of-plane_ γ-type interfaces.
+  * `hcp3d_progcut_gammaX.m` - Progressive rotation, cutting and assembly of _in-plane_ γ-type interfaces. **_[ADD]_**
+* `hcp3d_fft.m` - Fast-Fourier Transform of assembled out-of-plane lattices α, β and γ. Varies l with 0.006 steps.
+* Collection of functions that perform Fast-Fourier Transform of assembled lattices γ (in-plane):
+  * `hcp3d_fftX_fftXh.m` - Varies h with 0.006 steps.
+  * `hcp3d_fftX_fftXk.m` - Varies k with 0.006 steps.
+  * `hcp3d_fftX_fftXhk.m` - Varies h and k with 0.006 steps.
+* `hcp3d_stackingfault.m` - **_[ADD description]_**
+* `hcp3d_stack` - **_[ADD description]_**
+  * `_abb.m` - **_[ADD description]_**
+  * `_abc.m` - **_[ADD description]_**
   
 ## _hcp3d/extras_
 ### Extraction of Atom Matrix Figures for POV-Ray™
 >The [_Persistence of Vision Raytracer™_](http://www.povray.org/) (_POV-Ray™_) is a tool for producing high-quality computer graphics. POV-Ray is a free and open-source software >with source code available under the AGPLv3.
 
 * Collection of scripts to assist the creation on images to better illustrate relevant assembled lattices (all atom positions are preserved). They create _.pov_ files to be visualized in POV-Ray.
-  * _`_bulk.m`_ - Creates _.pov_ files to generate images for the bulk matrix.
-  * _`_alpha.m`_ - Creates _.pov_ files to generate images for _out-of-plane_ α-type interfaces.
-  * _`_beta.m`_ - Creates _.pov_ files to generate images for _out-of-plane_ β-type interfaces.
-  * _`_gamma.m`_ - Creates _.pov_ files to generate images for _out-of-plane_ γ-type interfaces.
+  * `_bulk.m` - Creates _.pov_ files to generate images for the bulk matrix.
+  * `_alpha.m` - Creates _.pov_ files to generate images for _out-of-plane_ α-type interfaces.
+  * `_beta.m` - Creates _.pov_ files to generate images for _out-of-plane_ β-type interfaces.
+  * `_gamma.m` - Creates _.pov_ files to generate images for _out-of-plane_ γ-type interfaces.
 
 ### Data Retrieval
 
-* _`angulos.m`_ - Convertion of atom coordinates into rotation angles.
-* _`Lcalc.m`_ - Estimates Miller indexes (_l_ only).
-* _`strain.m`_ - Calculates maximum estimated strain (1D distortion).
-* _`reverseangulos.m`_ - Convertion of rotation angles into atom coordinates. **_[unused, unfinished]_**
+* `angulos.m` - Convertion of atom coordinates into rotation angles.
+* `Lcalc.m` - Estimates Miller indexes (_l_ only).
+* `strain.m` - Calculates maximum estimated strain (1D distortion).
+* `reverseangulos.m` - Convertion of rotation angles into atom coordinates. _[not used, unfinished]_

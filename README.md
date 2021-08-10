@@ -2,15 +2,15 @@
 
 MSc project (2017-2019). MATLAB XRD simulations of hcp bulk crystals.
 
-###### Last Update (08 Aug 2021): _Updated file descriptions._
+###### Last Update (10 Aug 2021): _Updated README with missing file descriptions._
 
 This repository consists of all scripts developed in MATLAB to simulate X-ray diffraction line profiles of hexagonal close-packed bulk crystals with grain interfaces. The scripts are separated into two folders: `hcp3d/sim` lists all scripts dedicated to the simulation routines performed, and `hcp3d/extras` lists all scripts developed to extract images and perform pertinent calculations to extract further information on the XRD data obtained. A full description of the scripts contained in the repository can be found below.
 
 A research paper was published using results obtained from these scripts. You can find it here:
 
 [_Retrieving the configuration of grain boundary structure in polycrystalline materials by extraordinary X-ray reflection analysis_](https://doi.org/10.1107/S1600576720007803)
-<br>**L. Aarão-Rodrigues, A. Isaac, R. B. Figueiredo and A. Malachias**
- 
+<br>L. Aarão-Rodrigues, A. Isaac, R. B. Figueiredo and A. Malachias - _J. Appl. Cryst._ (2020). **53**, 1006-1014
+
 >_MATLAB® is a registered trademark of The MathWorks, Inc. Further information can be found at http://www.mathworks.com._
 
 ---
@@ -26,15 +26,15 @@ A research paper was published using results obtained from these scripts. You ca
   * `hcp3d_progcut_beta.m` - Progressive rotation, cutting and assembly of _out-of-plane_ β-type interfaces.
   * `hcp3d_progcut_gammaZ.m` - Progressive rotation, cutting and assembly of _out-of-plane_ γ-type interfaces.
   * `hcp3d_progcut_gammaX.m` - Progressive rotation, cutting and assembly of _in-plane_ γ-type interfaces. **_[ADD]_**
-* `hcp3d_fft.m` - Fast-Fourier Transform of assembled out-of-plane lattices α, β and γ. Varies l with 0.006 steps.
+* `hcp3d_fft.m` - Fast-Fourier Transform of assembled out-of-plane lattices α, β and γ. Varies Miller index ℓ with 0.006 steps.
 * Collection of functions that perform Fast-Fourier Transform of assembled lattices γ (in-plane):
-  * `hcp3d_fftX_fftXh.m` - Varies h with 0.006 steps.
-  * `hcp3d_fftX_fftXk.m` - Varies k with 0.006 steps.
-  * `hcp3d_fftX_fftXhk.m` - Varies h and k with 0.006 steps.
-* `hcp3d_stackingfault.m` - **_[ADD description]_**
-* `hcp3d_stack` - **_[ADD description]_**
-  * `_abb.m` - **_[ADD description]_**
-  * `_abc.m` - **_[ADD description]_**
+  * `hcp3d_fftX_fftXh.m` - Varies Miller index h with 0.006 steps.
+  * `hcp3d_fftX_fftXk.m` - Varies Miller index k with 0.006 steps.
+  * `hcp3d_fftX_fftXhk.m` - Varies Miller indexes h and k with 0.006 steps.
+* `hcp3d_stackingfault.m` - Main script to execute the simulation and calculation of FFT in simulated stacking faults (see next item).
+* `hcp3d_stack` - Collection of functions that create and assemble lattices with different types of stacking faults:
+  * `_abb.m` - Stacking faults in which the ABAB registry along the c (00L) axis is replaced by ABBA stackings.
+  * `_abc.m` - Stacking faults in which the ABAB registry along the c (00L) axis is replaced by ABCAB stackings.
   
 ## _hcp3d/extras_
 ### Extraction of Atom Matrix Figures for POV-Ray™
